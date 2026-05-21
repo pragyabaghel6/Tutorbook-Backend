@@ -1,0 +1,23 @@
+{
+  "name": "tutorbook-server",
+  "version": "1.0.0",
+  "description": "TutorBook backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.20.0",
+    "razorpay": "^2.9.4",
+    "twilio": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
